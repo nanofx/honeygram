@@ -6,7 +6,7 @@
     import Timeline from '../components/Timeline.svelte';
 
     let data = {};
-    const API = "https://gist.githubusercontent.com/santiaguf/7145eaeaef5a5454fc461f108cdbf0d7/raw/e1507fc134a9358b3a007e43de8b5e297f220a65/fake-api-honeygram";
+    const API = "";
 
     onMount(async () => {
       const response = await fetch(API);
